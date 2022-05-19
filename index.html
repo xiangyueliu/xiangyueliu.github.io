@@ -16,8 +16,8 @@
     <tr style="padding:0px">
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px" onmouseout="flare_start()" onmouseover="flare_stop" onmouseout="flare_start()" >
-<!--           <tr style="padding:0px"> -->
+<!--           <tr style="padding:0px" onmouseout="flare_start()" onmouseover="flare_stop" onmouseout="flare_start()" > -->
+          <tr style="padding:0px">
 		  
             <td style="padding:2.5%;width:63%;vertical-align:middle">
               <p style="text-align:center">
@@ -43,7 +43,7 @@
 		<a href="images/me_refine.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/me_refine.jpg" class="hoverZoomLink"></a>
             </td> -->
 		  
-            <td style="padding:2.5%;width:23%;max-width:23%">      
+<!--             <td style="padding:2.5%;width:23%;max-width:23%">      
               <div class="one">
                 <div class="two" id='flare_image'>
                   <img src='images/me_after.jpg' width="220"></div>
@@ -58,7 +58,26 @@
                 }
                 flare_stop()
               </script>
-            </td>
+            </td> -->
+		  
+	<td style="padding:2.5%;width:23%;max-width:23%">  
+		<img src="images/me_after.jpg" style="position:absolute;margin-left:100px;" οnclick="image1()" id="picture1">
+		<img src="images/me_refine.jpg" style="position:absolute;margin-left:100px;" οnclick="image2()" id="picture2">
+		<script type="text/javascript">
+		function image1(){
+		a.document.getElementById('picture1');
+		a.style.display="none";
+		a.document.getElementById('picture2');
+		a.style.display="inline";
+		}
+		function image2(){
+		a.document.getElementById('picture2');
+		a.style.display="none";
+		a.document.getElementById('picture1');
+		a.style.display="inline";
+		}
+		</script>
+	</td>
 		  
           </tr>
         </tbody></table>
