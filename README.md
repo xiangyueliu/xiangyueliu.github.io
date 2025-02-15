@@ -1,3 +1,3 @@
-# Xiangyue Liu's Homepage
+# Homepage
 
 https://xiangyueliu.github.io/
