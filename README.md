@@ -1,3 +1,3 @@
-# ingrid725.github.io
+# Xiangyue Liu's Homepage
 
-https://ingrid789.github.io/IngridYu/
+https://xiangyueliu.github.io/
