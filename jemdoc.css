@@ -22,6 +22,8 @@ body {
 /*   font-family: 'Times New Roman', Times, serif; */
 /*   font-family: 'PT Serif', serif; */
   font-family: 'Crimson Pro', serif;
+  font-weight: 400; /* 使用粗体 */
+	
   color: #000;
   background-color: #ffffff; 
   text-align:left; /* for IE */
