@@ -21,6 +21,7 @@ body {
 /*   font-family: 'Tinos'; */
 /*   font-family: 'Times New Roman', Times, serif; */
 /*   font-family: 'PT Serif', serif; */
+  font-feature-settings: "tnum"; /* 选择数字 */
   color: #000;
   background-color: #ffffff; 
   text-align:left; /* for IE */
@@ -375,3 +376,4 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
