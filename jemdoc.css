@@ -21,7 +21,6 @@ body {
 /*   font-family: 'Tinos'; */
 /*   font-family: 'Times New Roman', Times, serif; */
 /*   font-family: 'PT Serif', serif; */
-  font-feature-settings: "tnum"; /* 选择数字 */
   color: #000;
   background-color: #ffffff; 
   text-align:left; /* for IE */
@@ -34,6 +33,13 @@ body {
   padding-top: 10px;
   padding-bottom: 30px;
   max-width: 960px;
+}
+
+.number {
+    font-family: Georgia, serif;
+    font-size: 1em; /* 根据需要调整大小 */
+    line-height: 1; /* 调整行高以对齐 */
+    vertical-align: baseline; /* 或者尝试其他值 */
 }
 
 #layout-menu {
@@ -376,4 +382,5 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
 
