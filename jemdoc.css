@@ -35,13 +35,6 @@ body {
   max-width: 960px;
 }
 
-.number {
-    font-family: Georgia, serif;
-    font-size: 1em; /* 根据需要调整大小 */
-    line-height: 1; /* 调整行高以对齐 */
-    vertical-align: baseline; /* 或者尝试其他值 */
-}
-
 #layout-menu {
 	background: #f6f6f6;
 	border: 1px solid #dddddd;
@@ -382,5 +375,6 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
 
 
