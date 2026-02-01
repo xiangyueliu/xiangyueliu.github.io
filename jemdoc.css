@@ -16,19 +16,18 @@ html {
   background-color: #eeeeee; 
 }
 
+@font-face {
+  font-family: 'StraightNumbers'; /* 起个名字叫“直数字” */
+  src: local('Times New Roman');  /* 借用 Times New Roman 的数字 */
+  unicode-range: U+30-39;         /* 核心魔法：只针对 0-9 生效，不碰字母 */
+}
+
 body { 
-  font-family: Georgia, serif;
+  /* font-family: Georgia, serif; */
+  font-family: 'StraightNumbers', Georgia, serif;
 /*   font-family: 'Tinos'; */
 /*   font-family: 'Times New Roman', Times, serif; */
 /*   font-family: 'PT Serif', serif; */
-
-	font-variant-numeric: lining-nums; 
-	-moz-font-feature-settings: "lnum" 1; 
-	-moz-font-variant-numeric: lining-nums;
-	-ms-font-feature-settings: "lnum" 1; 
-	-o-font-feature-settings: "lnum" 1; 
-	-webkit-font-feature-settings: "lnum" 1; 
-	font-feature-settings: "lnum" 1;
 	
   color: #000;
   background-color: #ffffff; 
@@ -384,6 +383,7 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
 
 
 
