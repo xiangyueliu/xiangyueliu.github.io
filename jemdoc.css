@@ -12,8 +12,8 @@ html {
 
 @font-face {
   font-family: 'StraightNumbers'; 
-  src: local('Century Schoolbook'), local('New Century Schoolbook'), local('Century');
-  /* src: local('Palatino');   */
+  /* src: local('Century Schoolbook'), local('New Century Schoolbook'), local('Century'); */
+  src: local('Palatino');  
   unicode-range: U+30-39;         
 }
 
@@ -379,6 +379,7 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
 
 
 
