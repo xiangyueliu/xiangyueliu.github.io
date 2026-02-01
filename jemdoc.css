@@ -12,7 +12,7 @@ html {
 
 @font-face {
   font-family: 'StraightNumbers'; 
-  src: local('Constantia');  
+  src: local('Palatino');  
   unicode-range: U+30-39;         
 }
 /* Palatino, Charter, Constantia*/
@@ -375,6 +375,7 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
 
 
 
