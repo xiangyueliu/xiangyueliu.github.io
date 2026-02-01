@@ -12,16 +12,11 @@ html {
 
 @font-face {
   font-family: 'StraightNumbers'; 
-  /* src: local('Century Schoolbook'), local('New Century Schoolbook'), local('Century'); */
   src: local('Palatino');  
   unicode-range: U+30-39;         
 }
 
 body { 
-    font-variant-numeric: lining-nums;
-    /* 或者更强力的组合 */
-    font-feature-settings: "lnum"; 
-	
   /* font-family: Georgia, serif; */
   font-family: 'StraightNumbers', Georgia, serif;
 	
@@ -379,6 +374,7 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
 
 
 
