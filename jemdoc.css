@@ -12,10 +12,10 @@ html {
 
 @font-face {
   font-family: 'StraightNumbers'; 
-  src: local('Palatino');  
+  src: local('Century Schoolbook'), local('New Century Schoolbook'), local('Century');
+  /* src: local('Palatino');   */
   unicode-range: U+30-39;         
 }
-/* Palatino, Charter, Constantia*/
 
 body { 
   /* font-family: Georgia, serif; */
@@ -375,6 +375,7 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
 
 
 
