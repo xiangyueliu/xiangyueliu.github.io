@@ -18,6 +18,10 @@ html {
 }
 
 body { 
+    font-variant-numeric: lining-nums;
+    /* 或者更强力的组合 */
+    font-feature-settings: "lnum"; 
+	
   /* font-family: Georgia, serif; */
   font-family: 'StraightNumbers', Georgia, serif;
 	
@@ -375,6 +379,7 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
 
 
 
