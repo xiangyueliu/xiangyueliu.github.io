@@ -11,7 +11,7 @@ html {
 }
 
 @font-face {
-  font-family: 'StraightNumbers'; 
+  font-family: 'Palatino'; 
   src: local('Charter');  
   unicode-range: U+30-39;         
 }
@@ -375,6 +375,7 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
 
 
 
