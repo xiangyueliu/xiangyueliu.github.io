@@ -12,7 +12,7 @@ html {
 
 @font-face {
   font-family: 'StraightNumbers'; 
-  src: local('Bookman');  
+  src: local('Charter');  
   unicode-range: U+30-39;         
 }
 
@@ -374,6 +374,7 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
 
 
 
