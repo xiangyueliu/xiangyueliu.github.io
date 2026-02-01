@@ -18,7 +18,7 @@ html {
 
 @font-face {
   font-family: 'StraightNumbers'; 
-  src: local('Times New Roman');  
+  src: local('Verdana');  
   unicode-range: U+30-39;         
 }
 
@@ -380,6 +380,7 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
 
 
 
