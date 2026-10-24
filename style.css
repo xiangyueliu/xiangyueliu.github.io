@@ -361,12 +361,11 @@ section { padding-top: var(--space); }
   align-items: baseline;
   justify-content: space-between;
   gap: 8px 20px;
-  padding: 8px 0;
+  margin-bottom: 6px;
   font-size: 17px;
-  line-height: 1.55;
+  line-height: 1.75;
 }
-.edu-row:first-child { padding-top: 0; }
-.edu-row:last-child { padding-bottom: 0; }
+.edu-row:last-child { margin-bottom: 0; }
 .edu-row-main { flex: 1 1 12rem; min-width: 0; }
 .edu-row-main strong { font-weight: 600; }
 .edu-detail { color: var(--muted); margin-left: 0.4em; }
