@@ -17,13 +17,18 @@
   --gap:       48px;      /* space between the two columns              */
   --page-pad:  24px;      /* horizontal inset for layout + nav          */
   --navh:      58px;      /* fixed top navigation bar height            */
+  --layout-top: calc(var(--navh) + 44px); /* below fixed nav; match sidebar sticky */
   --serif:     "Newsreader", Georgia, "Times New Roman", serif;
   --space:     clamp(48px, 8vw, 80px); /* vertical rhythm between sections */
 }
 
 /* ============================ BASE ============================ */
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll; /* same page width whether content overflows or not */
+  scrollbar-gutter: stable;
+}
 
 body {
   margin: 0;
@@ -99,7 +104,7 @@ strong { font-weight: 600; }
 }
 .topnav a.navlink:hover,
 .topnav a.navlink.active { color: var(--accent); }
-.topnav a.navlink.active { font-weight: 600; }
+.topnav a.navlink.active { font-weight: inherit; }
 
 /* ============================ TWO-COLUMN LAYOUT ============================ */
 .layout {
@@ -107,7 +112,7 @@ strong { font-weight: 600; }
   gap: var(--gap);
   max-width: calc(var(--sidebar-w) + var(--gap) + var(--main-w));
   margin: 0 auto;
-  padding: calc(var(--navh) + 44px) var(--page-pad) 0;
+  padding: var(--layout-top) var(--page-pad) 0;
   align-items: flex-start;
 }
 
@@ -119,7 +124,7 @@ section[id] { scroll-margin-top: calc(var(--navh) + 16px); }
   flex: 0 0 var(--sidebar-w);
   width: var(--sidebar-w);
   position: sticky;
-  top: calc(var(--navh) + 32px);
+  top: var(--layout-top);
 }
 .sidebar .portrait {
   display: block;
